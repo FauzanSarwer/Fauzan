@@ -1,97 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
-    <title>Fauzan</title>
+  <meta charset="UTF-8">
+  <title>Fauzan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="left">
-                <h1>Fauzan</h1>
-            </div>
-            <div class="right">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="https://github.com/NotFauzan">Projects</a></li>
-                    <li><a href="https://instagram.com/fxuz4n">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <section class="first-sec">
-            <div class="left-sec">
-                <h1 class="typeJsText">Hi, I'm <span class="name">Fauzan</span> and I'm a
-                    <span id="element"> </span>
-                </h1>
-                <a href="https://github.com/NotFauzan" target="__blank" rel="noopener noreferrer"><button class="btn">Visit GitHub</button></a>            </div>
+<nav>
+  <h1>Fauzan</h1>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="https://github.com/NotFauzan" target="_blank">Projects</a></li>
+    <li><a href="https://instagram.com/fxuz4n" target="_blank">Contact</a></li>
+  </ul>
+</nav>
 
-            <div class="right-sec">
-                <img src="dev.png" alt="">
-            </div>
-        </section>
+<section class="hero reveal">
+  <div class="hero-text">
+    <h1>Hi, I'm <span class="name">Fauzan</span><br>I'm a <span id="element"></span></h1>
+    <a href="https://github.com/NotFauzan" target="_blank">
+      <button>Visit GitHub</button>
+    </a>
+  </div>
+  <div class="hero-img">
+    <img src="dev.png" alt="developer">
+  </div>
+</section>
 
-        <hr>
+<hr>
 
-        <section class="second-sec">
-            <h1>Education & Clubs</h1>
+<section class="edu reveal">
+  <h2>Education & Clubs</h2>
 
-            <div class="box">
-                <img class="img-top" src="education.png" alt="">
-                <div class="vertical-title">
-                    Student - DPS Mathura Road
-                </div>
+  <div class="edu-card">
+    <img src="education.png">
+    <div>
+      <h3>Student - DPS Mathura Road</h3>
+      <p>One of India’s oldest and most prestigious schools, established in 1949.</p>
+    </div>
+  </div>
 
-                <div class="vertical-desc">
-                    Studying at Delhi Public School, Mathura Road, the oldest DPS established in 1949 and one of the most prestigious instituitions in India. 
-                </div>
-            </div>
-                
-            <div class="box2">
-                <img class="img-top" src="warp.png" alt="">
-                <div class="vertical-title2">
-                    Member - WarP (Tech Club)
-                </div>
+  <div class="edu-card">
+    <img src="warp.png">
+    <div>
+      <h3>Member - WarP (Tech Club)</h3>
+      <p>Top tech club in the Delhi Tech Circuit.</p>
+    </div>
+  </div>
 
-                <div class="vertical-desc2">
-                    WarP is the tech and computer club of Delhi Public School, Mathura Road and is one of the top tech clubs in the Delhi Tech Circuit.
-                </div>
-            </div>
+  <div class="edu-card">
+    <img src="sg.png">
+    <div>
+      <h3>Member - Steins;Gate</h3>
+      <p>Quizzing club inspired by the famous anime.</p>
+    </div>
+  </div>
+</section>
 
-            <div class="box3">
-                <img class="img-top" src="sg.png" alt="">
-                <div class="vertical-title3">
-                    Member - Steins;Gate
-                </div>
+<footer>
+  <h4>Made with ❤ by Fauzan</h4>
+</footer>
 
-                <div class="vertical-desc3">
-                    Steins;Gate (S;G), named after famous Anime series is the quizzing club of Delhi Public School, Mathura Road.
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer_container">
-            <h4>Made With <span> ❤ </span>by Fauzan</h4>
-          </div>
-      </footer>
-
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Student.', 'Video Editor.', 'Web Developer.'],
-            typeSpeed: 69,
-        });
-    </script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
