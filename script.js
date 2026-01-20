@@ -1,5 +1,5 @@
 new Typed('#element', {
-  strings: ['Student.', 'Video Editor.', 'Web Developer.'],
+  strings: ['Student.', 'AI & Web3 Enthusiast.', 'Web Developer.'],
   typeSpeed: 70,
   backSpeed: 40,
   loop: true
