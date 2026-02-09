@@ -266,6 +266,17 @@ section{
   color:#d7b3ff;
 }
 
+/* FITDEX */
+.fitdex{
+  max-width:1100px;
+  margin:0 auto;
+}
+.fitdex-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+  gap:22px;
+}
+
 /* CONTACT */
 .contact{
   max-width:900px;
